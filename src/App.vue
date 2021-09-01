@@ -35,7 +35,7 @@ export default {
       api_key: 'e66e5363bd9abc8a8f2fd181707276ab',
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: '',
-      weather: {}  
+      weather: {}
     }
   },
   methods: {
@@ -76,13 +76,13 @@ export default {
     font-family: 'monserrat', sans-serif;
   }
   #app{
-    background-image: url('./assets/cold-bg.jpg');
+    background-image: url('./assets/cold.jpg');
     background-size: cover;
     background-position: bottom;
     transition: 0.4s;
   }
   #app.warm{
-    background-image: url('./assets/warm-bg.jpg');
+    background-image: url('./assets/warm.jpg');
   }
   main{
     min-height: 100vh;
@@ -160,6 +160,4 @@ export default {
     font-style: italic;
     text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
   }
-
-
 </style>
